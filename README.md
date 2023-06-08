@@ -2,11 +2,11 @@
 Cloud-native web app assessment and simulation tool for testing redundancy, resiliency, and least privilege of a Squid VPN server.
 
 
-# Squid VPN Web Application
+## Squid VPN Web Application
 
 This project simulates testing a Squid VPN Web Application to evaluate its cloud-native characteristics. The application is designed to exhibit traits like redundancy, resiliency, and least privilege. It provides functionality for managing pods, scaling the application, checking status, and testing user privileges.
 
-# Running the application
+## Running the application
 
 **1) Starting the server and checking the status of pods.**<br><br>
 
@@ -34,7 +34,7 @@ This project simulates testing a Squid VPN Web Application to evaluate its cloud
 ![Screenshot from 2023-06-08 21-57-13](https://github.com/vexecute/Cloud-Native-Web-App-Testing-Squid-VPN/assets/92919686/946ba358-6120-49b8-b379-4e4897a9ab60) <br><br>
 
 
-# What is understood from the above process?
+## What is understood from the above process?
 
 - first, we can see that the application is **"Redundant"**, which means there is plenty of pods that can be scaled even if any one pod is terminated/killed.<br>
 - second, the application automatically recovered from the failure/termination of a pod and the service was again made available within seconds (without human/manual intervention). Thus it is understood that the app is **"Resilient"**.<br>
@@ -67,6 +67,15 @@ To use this application, follow these steps:
 - `scale [NUMBER]`: Simulate autoscaling the application to run with the specified number of pods
 - `get-user [POD_NAME]`: Simulate checking the privilege of the user account running on the target Squid Server pod
 - `quit`: Terminate the program
+
+## Installation
+
+**To run this application in your system you can follow the following steps.**<br><br>
+
+Step 1. Install python.<br>
+`git clone https://github.com/vexecute/Cloud-Native-Web-App-Testing-Squid-VPN.git`
+`python cloud-app.py` <br>
+
 
 you can explore the commands listed above and test different aspects of the application.
 

@@ -54,7 +54,7 @@ Least privilege is a security principle that restricts access rights for users a
 
 ## Installation
 
-**To run this application in your system you can follow the steps below.**<br><br>
+**To run this application in your system you can follow the steps below.**<br>
 
 Step 1. Install python.<br>
 Step 2. `git clone https://github.com/vexecute/Cloud-Native-Web-App-Testing-Squid-VPN.git`<br>

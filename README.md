@@ -12,7 +12,7 @@ This project simulates testing a Squid VPN Web Application to evaluate its cloud
 
 ![Screenshot from 2023-06-08 21-06-28](https://github.com/vexecute/Cloud-Native-Web-App-Testing-Squid-VPN/assets/92919686/291f69a5-aa34-4db2-b0f6-c374214b6ae8) <br>
 
-- you can see that there are four different pods/processes running, you can also scale more pods, since the default is 4 it is displaying four pods. <br><br>
+- you can see that there are four different pods/processes running. You can also scale more pods. Since the default is 4 it is displaying four pods. <br><br>
 
 **2) Terminating or Killing a pod**<br><br>
 

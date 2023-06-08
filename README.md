@@ -34,7 +34,7 @@ To use this application, follow these steps:
 - `get-user [POD_NAME]`: Simulate checking the privilege of the user account running on the target Squid Server pod
 - `quit`: Terminate the program
 
-you can explore and test different aspects of the Squid VPN Web Application using the provided commands.
+you can explore the commands listed above and test different aspects of the application.
 
 
 

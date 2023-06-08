@@ -6,6 +6,12 @@ Cloud-native web app assessment and simulation tool for testing redundancy, resi
 
 This project simulates testing a Squid VPN Web Application to evaluate its cloud-native characteristics. The application is designed to exhibit traits like redundancy, resiliency, and least privilege. It provides functionality for managing pods, scaling the application, checking status, and testing user privileges.
 
+# Running the application
+
+1. Starting the server.
+![Screenshot from 2023-06-08 21-06-28](https://github.com/vexecute/Cloud-Native-Web-App-Testing-Squid-VPN/assets/92919686/291f69a5-aa34-4db2-b0f6-c374214b6ae8)
+
+
 ## Redundancy
 
 Redundancy is an important characteristic of cloud-native applications. It ensures that the application continues to function even if instances (VMs or containers) are terminated or fail. In this project, you can test the redundancy of the Squid VPN Web Application by killing an instance while it's running and checking if the application still provides service. The application should be able to recover and continue serving traffic without human intervention.

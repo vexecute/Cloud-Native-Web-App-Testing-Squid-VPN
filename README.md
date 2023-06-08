@@ -1,6 +1,7 @@
 # Cloud-Native-Web-App-Testing-Squid-VPN
 Cloud-native web app assessment and simulation tool for testing redundancy, resiliency, and least privilege of a Squid VPN server.
 
+
 # Squid VPN Web Application
 
 This project simulates testing a Squid VPN Web Application to evaluate its cloud-native characteristics. The application is designed to exhibit traits like redundancy, resiliency, and least privilege. It provides functionality for managing pods, scaling the application, checking status, and testing user privileges.

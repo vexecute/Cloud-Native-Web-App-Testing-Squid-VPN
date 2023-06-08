@@ -8,9 +8,10 @@ This project simulates testing a Squid VPN Web Application to evaluate its cloud
 
 # Running the application
 
-1. Starting the server.
+# 1. Starting the server and checking the status of pods.
 ![Screenshot from 2023-06-08 21-06-28](https://github.com/vexecute/Cloud-Native-Web-App-Testing-Squid-VPN/assets/92919686/291f69a5-aa34-4db2-b0f6-c374214b6ae8)
 
+you can see that there are four different pods/processes running, you can also scale more pods, since it will always display four pods as default.
 
 ## Redundancy
 

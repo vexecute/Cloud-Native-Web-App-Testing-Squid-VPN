@@ -73,8 +73,8 @@ To use this application, follow these steps:
 **To run this application in your system you can follow the following steps.**<br><br>
 
 Step 1. Install python.<br>
-`git clone https://github.com/vexecute/Cloud-Native-Web-App-Testing-Squid-VPN.git`<br>
-`python cloud-app.py` <br>
+Step 2. `git clone https://github.com/vexecute/Cloud-Native-Web-App-Testing-Squid-VPN.git`<br>
+Step 3. `python cloud-app.py` <br>
 
 
 you can explore the commands listed above and test different aspects of the application.

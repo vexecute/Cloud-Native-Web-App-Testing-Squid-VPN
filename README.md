@@ -8,28 +8,30 @@ This project simulates testing a Squid VPN Web Application to evaluate its cloud
 
 # Running the application
 
-**Starting the server and checking the status of pods.**<br>
+**1) Starting the server and checking the status of pods.**<br><br>
+
 ![Screenshot from 2023-06-08 21-06-28](https://github.com/vexecute/Cloud-Native-Web-App-Testing-Squid-VPN/assets/92919686/291f69a5-aa34-4db2-b0f6-c374214b6ae8) <br>
 
-you can see that there are four different pods/processes running, you can also scale more pods, since the default is 4 it is displaying four pods. <br>
+- you can see that there are four different pods/processes running, you can also scale more pods, since the default is 4 it is displaying four pods. <br><br>
 
-**Terminating or Killing a pod**<br>
+**2) Terminating or Killing a pod**<br><br>
+
 ![Screenshot from 2023-06-08 21-18-06](https://github.com/vexecute/Cloud-Native-Web-App-Testing-Squid-VPN/assets/92919686/99bb0f8c-13a6-43f8-b5aa-3a2922a3bec8) <br>
 
 - here im killing a particular pod to check if the app is both redundant and resilient. <br>
-- after killing the particular pod, you can see that the status of the pod is terminating now. <br>
+- after killing the particular pod, you can see that the status of the pod is terminating now. <br><br>
 
 ![Screenshot from 2023-06-08 21-18-06](https://github.com/vexecute/Cloud-Native-Web-App-Testing-Squid-VPN/assets/92919686/f744e9fd-b1bd-4849-9d98-e5e3164f2e25) <br>
  
- - automatically in the next step the app will create a container for another pre-existing pod to match the scale count. <br>
+- automatically in the next step the app will create a container for another pre-existing pod to match the scale count. <br><br>
 
 ![Screenshot from 2023-06-08 21-25-24](https://github.com/vexecute/Cloud-Native-Web-App-Testing-Squid-VPN/assets/92919686/dfc65dcc-acf0-45d0-8d42-5beba42de6d2) <br>
 
-- withing seconds the container is created for the process "squid-proxy-50489" and it is scaled now.
+- withing seconds the container is created for the process "squid-proxy-50489" and it is scaled now.<br><br>
 
-**using get-user command to check the privilege of the current user**<br>
+**3) Using get-user command to check the privilege of the current user**<br><br>
 
-![Screenshot from 2023-06-08 21-57-13](https://github.com/vexecute/Cloud-Native-Web-App-Testing-Squid-VPN/assets/92919686/946ba358-6120-49b8-b379-4e4897a9ab60) <br>
+![Screenshot from 2023-06-08 21-57-13](https://github.com/vexecute/Cloud-Native-Web-App-Testing-Squid-VPN/assets/92919686/946ba358-6120-49b8-b379-4e4897a9ab60) <br><br>
 
 
 # What is understood from the above process?

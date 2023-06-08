@@ -77,7 +77,7 @@ To use this application, follow these steps:
 - `quit`: Terminate the program
 
 
-you can explore the commands listed above and test different aspects of the application.
+**you can explore the commands listed above and test different aspects of the application.**
 
 
 

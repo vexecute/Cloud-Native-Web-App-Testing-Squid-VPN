@@ -52,6 +52,14 @@ Resiliency is another critical aspect of cloud-native applications. It focuses o
 
 Least privilege is a security principle that restricts access rights for users and processes to only the necessary resources. Cloud-native applications should not run with administrative or root-level access unless absolutely required. In this project, you can check if the Squid VPN Web Application adheres to the principle of least privilege by examining the user privilege of the account running on the target Squid Server pod. The application should use a dedicated user with limited privileges specific to running the Squid proxy application and nothing else.
 
+## Installation
+
+**To run this application in your system you can follow the following steps.**<br><br>
+
+Step 1. Install python.<br>
+Step 2. `git clone https://github.com/vexecute/Cloud-Native-Web-App-Testing-Squid-VPN.git`<br>
+Step 3. `python cloud-app.py` <br>
+
 ## Usage
 
 To use this application, follow these steps:
@@ -67,14 +75,6 @@ To use this application, follow these steps:
 - `scale [NUMBER]`: Simulate autoscaling the application to run with the specified number of pods
 - `get-user [POD_NAME]`: Simulate checking the privilege of the user account running on the target Squid Server pod
 - `quit`: Terminate the program
-
-## Installation
-
-**To run this application in your system you can follow the following steps.**<br><br>
-
-Step 1. Install python.<br>
-Step 2. `git clone https://github.com/vexecute/Cloud-Native-Web-App-Testing-Squid-VPN.git`<br>
-Step 3. `python cloud-app.py` <br>
 
 
 you can explore the commands listed above and test different aspects of the application.

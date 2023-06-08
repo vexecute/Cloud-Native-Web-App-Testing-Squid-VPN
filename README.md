@@ -36,9 +36,9 @@ This project simulates testing a Squid VPN Web Application to evaluate its cloud
 
 # What is understood from the above process?
 
-- first, we can see that the application is "Redundant", which means there is plenty of pods that can be scaled even if any one pod is terminated/killed.<br>
-- second, the application automatically recovered from the failure/termination of a pod and the service was again made available within seconds (without human/manual intervention). Thus it follows "Resiliency".<br>
-- third, is the least privilege access, when I use command "get-user pod[NAME]" you can see that the command "whoami" prints the current user's name as "squid user", which means that the root user is not performing this task and here the least privilige user is considered as the squid user.
+- first, we can see that the application is **"Redundant"**, which means there is plenty of pods that can be scaled even if any one pod is terminated/killed.<br>
+- second, the application automatically recovered from the failure/termination of a pod and the service was again made available within seconds (without human/manual intervention). Thus it is understood that the app is **"Resilient"**.<br>
+- third, is the least privilege access, when I use command **"get-user pod[NAME]"** you can see that the command **"whoami"** prints the current user's name as **"squid user"**, which means that the root user is not performing this task and here the least privilige user is considered as the squid user.
  
 ## Redundancy
 

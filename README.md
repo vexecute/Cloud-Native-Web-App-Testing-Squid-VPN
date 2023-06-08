@@ -1,4 +1,4 @@
-# Cloud-Native-Web-App-Testing-Squid-VPN
+# Cloud Native WebApp Testing: Squid VPN server
 Cloud-native web app assessment and simulation tool for testing redundancy, resiliency, and least privilege of a Squid VPN server.
 
 

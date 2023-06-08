@@ -90,15 +90,7 @@ class VpnWebApp:
         print("{name} $ id -u".format(name=name))
         print("1001")
         print("{name} $ whoami".format(name=name))
-        print("root")
-
-        #  Looks like {name} is running with the super admin user 'root'. This
-        #  is a problem and should be reported to the developers.
-        #
-        #  To follow the principle of least privilege, the application should
-        #  not be run using the root user, instead there should be a dedicated
-        #  user (e.g. squid) that has just enought privilege to running the
-        #  squid proxy application and nothing else!
+        print("squid user")
 
     if not found:
       print("Pod {name} does not exist.".format(name=name))

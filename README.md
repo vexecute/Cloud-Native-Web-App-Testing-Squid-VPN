@@ -21,7 +21,7 @@ This project simulates testing a Squid VPN Web Application to evaluate its cloud
 - here im killing a particular pod to check if the app is both redundant and resilient. <br>
 - after killing the particular pod, you can see that the status of the pod is terminating now. <br><br>
 
-![Screenshot from 2023-06-08 21-18-06](https://github.com/vexecute/Cloud-Native-Web-App-Testing-Squid-VPN/assets/92919686/f744e9fd-b1bd-4849-9d98-e5e3164f2e25) <br>
+![Screenshot from 2023-06-08 21-22-05](https://github.com/vexecute/Cloud-Native-Web-App-Testing-Squid-VPN/assets/92919686/c334e1cf-0c6b-4fb4-b1f6-337ea01e0042) <br>
  
 - automatically in the next step the app will create a container for another pre-existing pod to match the scale count. <br><br>
 
